@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-poppins: "Poppins", sans-serif;
+    --font-inter: "Inter", sans-serif;
+  }
+
+
+  body {
+    @apply bg-background text-text font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+  }
+
+  .glass-dark {
+    @apply bg-black/80 backdrop-blur-md border border-white/10;
+  }
+
+  .gradient-primary {
+    @apply bg-gradient-to-br from-primary to-primary-light;
+  }
+
+  .gradient-gold {
+    @apply bg-gradient-to-br from-gold to-gold-dark;
+  }
+
+  .shadow-glow {
+    box-shadow: 0 0 40px rgba(201, 154, 46, 0.3);
+  }
+
+  .shadow-glow-primary {
+    box-shadow: 0 0 40px rgba(11, 31, 77, 0.3);
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .heading-gradient {
+    @apply bg-gradient-to-r from-primary to-gold bg-clip-text text-transparent;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,6 @@
+# MITANSH TOUR & TRAVELS - robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mitanshtourtravels.com/sitemap.xml
