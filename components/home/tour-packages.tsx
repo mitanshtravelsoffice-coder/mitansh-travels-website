@@ -50,7 +50,7 @@ const TOUR_PACKAGES = [
   {
     id: 5,
     title: "Haridwar Rishikesh Tour",
-    image: "/images/haridwar.jpg?w=800",
+    image: "/images/Rishikesh.webp?w=800",
     price: "₹4,500",
     duration: "2 Days",
     description: "Visit the sacred cities on the banks of the holy Ganges river.",
