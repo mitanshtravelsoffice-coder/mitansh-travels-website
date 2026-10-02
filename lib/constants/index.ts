@@ -737,11 +737,11 @@ export const GALLERY_IMAGES = [
   },
 ];
 
-export const STATISTICS = [
-  { id: 1, value: 5000, label: "Happy Customers", suffix: "+" },
-  { id: 2, value: 15, label: "Years Experience", suffix: "+" },
-  { id: 3, value: 50, label: "Vehicles", suffix: "+" },
-  { id: 4, value: 100, label: "Cities Covered", suffix: "+" },
-  { id: 5, value: 25, label: "Tour Packages", suffix: "+" },
-  { id: 6, value: 98, label: "Satisfaction Rate", suffix: "%" },
-];
+// export const STATISTICS = [
+//   { id: 1, value: 5000, label: "Happy Customers", suffix: "+" },
+//   { id: 2, value: 15, label: "Years Experience", suffix: "+" },
+//   { id: 3, value: 50, label: "Vehicles", suffix: "+" },
+//   { id: 4, value: 100, label: "Cities Covered", suffix: "+" },
+//   { id: 5, value: 25, label: "Tour Packages", suffix: "+" },
+//   { id: 6, value: 98, label: "Satisfaction Rate", suffix: "%" },
+// ];
