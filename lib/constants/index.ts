@@ -739,7 +739,7 @@ export const GALLERY_IMAGES = [
 
 export const STATISTICS = [
   { id: 1, value: 1000, label: "Happy Customers", suffix: "+" },
-  { id: 2, value: 1+, label: "Years Experience", suffix: "+" },
+  { id: 2, value: 1, label: "Years Experience", suffix: "+" },
   { id: 3, value: 5, label: "Vehicles", suffix: "+" },
   { id: 4, value: 10, label: "Cities Covered", suffix: "+" },
   { id: 5, value: 10, label: "Tour Packages", suffix: "+" },
